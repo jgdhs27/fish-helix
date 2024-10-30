@@ -3,7 +3,7 @@ helix key bindings for fish
 
 # Installation
 
-/Dependencies: fish >= 3.6², GNU tools¹, perl/
+Dependencies: fish >= 3.6², GNU tools¹, perl
 
 Via `fisher` plugin manager:
 ``` shell

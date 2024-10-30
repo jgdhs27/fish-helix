@@ -3,13 +3,13 @@ helix key bindings for fish
 
 # Installation
 
-Dependencies: fish >= 3.6², GNU tools¹, perl.
+/Dependencies: fish >= 3.6², GNU tools¹, perl/
 
-## Via `fisher` plugin manager:
+Via `fisher` plugin manager:
 ``` shell
 $ fisher install monkeyjunglejuice/fish-helix
 ```
-## Manually:
+Manually:
 1. Copy `functions` directory as `~/.config/fish/functions`.
 2. Run `fish_helix_key_bindings`.
 

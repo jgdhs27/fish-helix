@@ -374,8 +374,9 @@ function __fish_helix_yank
     set -l cursor (commandline -C)
     commandline -f kill-selection yank backward-char
 
-    for i in (seq $cursor (math $end - 2))
+    while test $cursor -lt (math $end - 2)
         commandline -f backward-char
+        set cursor (commandline -C)
     end
 end
 
